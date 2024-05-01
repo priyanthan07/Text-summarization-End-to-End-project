@@ -14,7 +14,7 @@ list_of_files = [
     f"src/{projectName}/utils/common.py",
     f"src/{projectName}/logging/__init__.py",
     f"src/{projectName}/config/__init__.py",
-    f"src/{projectName}/config/configuration.py"
+    f"src/{projectName}/config/configuration.py",
     f"src/{projectName}/pipeline/__init__.py",
     f"src/{projectName}/entity/__init__.py",
     f"src/{projectName}/constants/__init__.py",
