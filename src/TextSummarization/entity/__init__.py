@@ -23,9 +23,6 @@ class DataTransformationConfig:
     data_path: Path
     tokenizer_name: Path
 
-from dataclasses import dataclass
-from pathlib import Path
-
 @dataclass
 class ModelTrainingConfig:
     root_dir : Path
@@ -40,3 +37,12 @@ class ModelTrainingConfig:
     eval_steps: int
     save_steps: float
     gradient_accumulation_steps: int
+
+
+@dataclass(frozen= True)
+class ModelEvaluationConfig:
+    root_dir : Path
+    data_path : Path
+    model_path : Path   
+    tokenizer_path : Path
+    metric_file_name : Path
