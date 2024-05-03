@@ -16,4 +16,5 @@ uvicorn==0.18.3
 Jinja2==3.1.2
 python-box
 ensure
+fastapi
 -e .
